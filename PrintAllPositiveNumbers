@@ -1,0 +1,8 @@
+m=[1,2,-5,-6]
+l=[65,45,-87,-76]
+ml=m+l
+p=[]
+for num in ml:
+  if num>0:
+    p.append(num)
+print(p)
